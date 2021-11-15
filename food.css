@@ -116,14 +116,16 @@ h2 a:hover {
 .buttoncontainer img {
   text-align : center;
   width : 100%;
+  height : 100%;
+  object-fit : cover;
   background-color : white;
   border : none;
-  height : 15em;
   font-family : Courier New;
   font-size : 20px;
   box-shadow : 5px 10px 15px -10px black;
   transition : 0.5s;
   box-sizing : border-box;
+  
   position : relative;
 }
 
