@@ -1,0 +1,114 @@
+html {
+  margin-left : 25%;
+  margin-right : 25%;
+}
+
+.heading-container {
+	display : block-flex;
+	text-align : center;
+	width : 100%;
+	font-family : Playfair Display;
+	font-size : 20px;
+}
+
+
+.heading-container .social-container {
+	display : inline-flex;
+	justify-content : center;
+	width : 100%;
+	list-style : none;
+	cursor : pointer;
+	
+}
+
+i {
+	padding : 5px;
+	font-size : 30px;
+}
+
+a {
+  text-decoration : none;
+  color : black;
+}
+
+.navcontainer {
+  display : inline-flex;
+  width : 100%;
+
+  
+}
+
+.navcontainer ul {
+  list-style : none;
+  display : inline-flex;
+  justify-content : space-evenly;
+  width : 100%;
+  cursor : pointer;
+  font-family : Courier New;
+  font-size : 20px;
+  padding-bottom : 5em;
+}
+
+
+h2 {
+  text-align : center;
+  font-size : 25px;
+  font-family : Playfair Display;
+  cursor : pointer;
+  color : black;
+  transition : 0.5s;
+  padding : 5%;
+
+  
+}
+
+h2 a {
+	text-decoration : none;
+	  transition : 0.5s;
+}
+
+h2 a:hover {
+	text-decoration : underline;
+}
+
+.buttoncontainer {
+  display : grid;
+  width :  100%;
+  grid-template-columns : repeat(3, 1fr);
+  column-gap : 10px;
+  row-gap : 10px;
+  box-sizing : border-box;
+
+  
+}
+
+.buttoncontainer img {
+  text-align : center;
+  width : 100%;
+  background-color : white;
+  border : none;
+  height : 100%;
+  font-family : Courier New;
+  font-size : 20px;
+  box-shadow : 5px 10px 15px -10px black;
+  transition : 0.5s;
+  box-sizing : border-box;
+  object-fit : cover;
+  object-position : bottom;
+}
+
+.buttoncontainer img:hover {
+  cursor : pointer;
+  box-shadow : none;
+
+}
+.tailendcontainer {
+  height : 15em;
+}
+
+.footercontainer {
+  text-align : center;
+  font-family : Playfair Display;
+  font-size : 15px;
+}
+
