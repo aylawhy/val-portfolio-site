@@ -84,7 +84,7 @@ h2 a:hover {
 
 .main-img-container img {
   text-align : center;
-  width : 100%;
+  max-width : 100%;
   background-color : white;
   border : none;
   height : 100%;
