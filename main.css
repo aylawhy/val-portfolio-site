@@ -74,6 +74,7 @@ h2 a:hover {
 .buttoncontainer {
   display : grid;
   width :  100%;
+  height : 100%;
   grid-template-columns : repeat(3, 1fr);
   column-gap : 10px;
   row-gap : 10px;
