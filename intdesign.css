@@ -84,10 +84,12 @@ h2 a:hover {
 
 .main-img-container img {
   text-align : center;
-  width : 100%;
+  max-width : 100%;
+  min-width : 100%;
+  max-height : 100%;
+  min-height : 100%;
   background-color : white;
   border : none;
-  height : 100%;
   font-family : Courier New;
   font-size : 20px;
   box-shadow : 5px 10px 15px -10px black;
@@ -116,10 +118,12 @@ h2 a:hover {
 
 .buttoncontainer img {
   text-align : center;
-  width : 100%;
+  max-width : 100%;
+  min-width : 100%;
+  max-height : 100%;
+  min-height : 100%;
   background-color : white;
   border : none;
-  height : 100%;
   font-family : Courier New;
   font-size : 20px;
   box-shadow : 5px 10px 15px -10px black;
